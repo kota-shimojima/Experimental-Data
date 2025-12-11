@@ -18,10 +18,10 @@ import matplotlib.pyplot as plt
 
 BASE_DIR = Path(__file__).resolve().parent
 FILES = {
-    "Native + Unenc": BASE_DIR / "one-proccess" / "multi-threads" / "Native-Unenc-PS=80.csv",
-    "Native + Enc": BASE_DIR / "one-proccess" / "multi-threads" / "Native-Enc-PS=80.csv",
-    "SGX + Unenc": BASE_DIR / "one-proccess" / "multi-threads" / "SGX-Unenc-PS=80.csv",
-    "SGX + Enc": BASE_DIR / "one-proccess" / "multi-threads" / "SGX-Enc-PS=80.csv",
+    "Native + Unenc": BASE_DIR / "one-proccess" / "threads=12" / "Native-Unenc-PS=80.csv",
+    "Native + Enc": BASE_DIR / "one-proccess" / "threads=12" / "Native-Enc-PS=80.csv",
+    "SGX + Unenc": BASE_DIR / "one-proccess" / "threads=12" / "SGX-Unenc-PS=80.csv",
+    "SGX + Enc": BASE_DIR / "one-proccess" / "threads=12" / "SGX-Enc-PS=80.csv",
 }
 
 
