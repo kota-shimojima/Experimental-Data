@@ -18,10 +18,10 @@ import matplotlib.pyplot as plt
 
 BASE_DIR = Path(__file__).resolve().parent
 FILES = {
-    "Native + Unenc": BASE_DIR / "Native" / "PS=80" / "Outline-PS80-Iter50-Unenc.csv",
-    "Native + Enc": BASE_DIR / "Native" / "PS=80" / "Outline-PS80-Iter50-Enc.csv",
-    "SGX + Unenc": BASE_DIR / "SGX" / "PS=80" / "Outline-PS80-Iter50-Unenc.csv",
-    "SGX + Enc": BASE_DIR / "SGX" / "PS=80" / "Outline-PS80-Iter50-Enc.csv",
+    "Native + Unenc": BASE_DIR / "one-proccess" / "multi-threads" / "Native-Unenc-PS=80.csv",
+    "Native + Enc": BASE_DIR / "one-proccess" / "multi-threads" / "Native-Enc-PS=80.csv",
+    "SGX + Unenc": BASE_DIR / "one-proccess" / "multi-threads" / "SGX-Unenc-PS=80.csv",
+    "SGX + Enc": BASE_DIR / "one-proccess" / "multi-threads" / "SGX-Enc-PS=80.csv",
 }
 
 
@@ -45,14 +45,14 @@ def main() -> None:
     bars = ax.bar(labels, values, color=["#4C78A8", "#F28E2B", "#72B7B2", "#E45756"])
 
     ax.set_ylabel("FOM (z/s)")
-    ax.set_title("FOM Comparison (PS80 Iter50)")
+    ax.set_title("FOM Comparison (PS80 Iter50, Multi Threads)")
     ax.grid(axis="y", linestyle="--", alpha=0.5)
     plt.xticks(rotation=15, ha="right")
 
     for bar, val in zip(bars, values):
         ax.text(bar.get_x() + bar.get_width() / 2, val, f"{val:.1f}", ha="center", va="bottom")
 
-    output_path = BASE_DIR / "fom_comparison.png"
+    output_path = BASE_DIR / "fom_comparison-PS=80.png"
     fig.tight_layout()
     fig.savefig(output_path, dpi=200)
     print(f"Saved plot to {output_path}")

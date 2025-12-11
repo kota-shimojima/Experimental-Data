@@ -24,10 +24,10 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent
 
 FILES = {
-    "Native + Unenc": BASE_DIR / "Native" / "PS=60" / "Breakdown-PS60-Iter50-Unenc.csv",
-    "Native + Enc": BASE_DIR / "Native" / "PS=60" / "Breakdown-PS60-Iter50-Enc.csv",
-    "SGX + Unenc": BASE_DIR / "SGX" / "PS=60" / "Breakdown-PS60-Iter50-Unenc.csv",
-    "SGX + Enc": BASE_DIR / "SGX" / "PS=60" / "Breakdown-PS60-Iter50-Enc.csv",
+    "Native + Unenc": BASE_DIR / "Native" / "PS=80" / "Breakdown-PS80-Iter50-Unenc.csv",
+    "Native + Enc": BASE_DIR / "Native" / "PS=80" / "Breakdown-PS80-Iter50-Enc.csv",
+    "SGX + Unenc": BASE_DIR / "SGX" / "PS=80" / "Breakdown-PS80-Iter50-Unenc.csv",
+    "SGX + Enc": BASE_DIR / "SGX" / "PS=80" / "Breakdown-PS80-Iter50-Enc.csv",
 }
 
 UNENC_METRICS = ["isend", "irecv", "wait", "waitall", "allreduce"]
@@ -49,16 +49,46 @@ class ParsedData:
 
 def parse_file(path: Path, metrics: List[str]) -> pd.DataFrame:
     """Return a DataFrame indexed by rank with the requested metrics."""
-    metric_to_regex = {m: m for m in metrics}
-    if "waitall" in metric_to_regex:
-        metric_to_regex["waitall"] = r"wait\s*all"
+    # Check if this is an Enc file by checking if "enc" is in any metric name
+    is_enc = any("enc-" in m for m in metrics)
+    
+    metric_to_regex = {}
+    for m in metrics:
+        if is_enc:
+            # Enc file format: "isend enc time", "irecv dec time", etc.
+            if m == "enc-isend":
+                metric_to_regex[m] = r"isend\s+enc"
+            elif m == "enc-irecv":
+                metric_to_regex[m] = r"irecv\s+dec"
+            elif m == "enc-wait":
+                # wait doesn't have enc/dec, use regular wait time
+                metric_to_regex[m] = r"wait\s+time"
+            elif m == "enc-waitall":
+                # waitall doesn't have enc/dec, use regular waitall time
+                metric_to_regex[m] = r"waitall\s+time"
+            elif m == "enc-allreduce":
+                # allreduce has both enc and dec, we'll sum them
+                metric_to_regex[m] = r"allreduce\s+(?:enc|dec)"
+            else:
+                metric_to_regex[m] = m
+        else:
+            # Unenc file format: "isend time", "wait all time", etc.
+            if m == "waitall":
+                metric_to_regex[m] = r"wait\s*all"
+            else:
+                metric_to_regex[m] = m
 
-    pattern_map = {
-        m: re.compile(
-            rf"rank is (\d+).*?{pattern}\s*time is\s*([0-9.]+)s", re.IGNORECASE
-        )
-        for m, pattern in metric_to_regex.items()
-    }
+    pattern_map = {}
+    for m, pattern in metric_to_regex.items():
+        # For wait and waitall in enc files, pattern already includes "time"
+        if is_enc and (m == "enc-wait" or m == "enc-waitall"):
+            pattern_map[m] = re.compile(
+                rf"rank is (\d+).*?{pattern}\s+is\s*([0-9.]+)s", re.IGNORECASE
+            )
+        else:
+            pattern_map[m] = re.compile(
+                rf"rank is (\d+).*?{pattern}\s*time is\s*([0-9.]+)s", re.IGNORECASE
+            )
     data: Dict[int, Dict[str, float]] = {}
 
     for line in path.read_text().splitlines():
@@ -69,7 +99,13 @@ def parse_file(path: Path, metrics: List[str]) -> pd.DataFrame:
             rank = int(m.group(1))
             value = float(m.group(2))
             data.setdefault(rank, {})
-            data[rank].setdefault(metric, value)
+            
+            # For enc-allreduce, sum both enc and dec times
+            if is_enc and metric == "enc-allreduce":
+                data[rank].setdefault(metric, 0.0)
+                data[rank][metric] += value
+            else:
+                data[rank].setdefault(metric, value)
 
     rows = []
     for rank in sorted(data.keys()):
@@ -78,6 +114,10 @@ def parse_file(path: Path, metrics: List[str]) -> pd.DataFrame:
             row[metric] = data[rank].get(metric, 0.0)
         rows.append(row)
 
+    if not rows:
+        # Return empty DataFrame with proper columns
+        return pd.DataFrame(columns=["rank"] + metrics)
+    
     return pd.DataFrame(rows)
 
 
@@ -107,6 +147,8 @@ def plot_combined(ax, parsed_list: List[ParsedData]) -> Tuple[Dict[str, float], 
 
     for parsed in parsed_list:
         df = parsed.df.copy()
+        if df.empty or "rank" not in df.columns:
+            continue
         df["rank_label"] = df["rank"] + 1  # 1-based rank for display
         bottoms = pd.Series([0.0] * len(df))
 
@@ -263,7 +305,7 @@ def main() -> None:
     annotate_native_only(ax, centers, totals)
     fig.tight_layout()
 
-    output_path = BASE_DIR / "breakdown.png"
+    output_path = BASE_DIR / "breakdown-PS=80.png"
     fig.savefig(output_path, dpi=200)
     print(f"Saved plot to {output_path}")
 

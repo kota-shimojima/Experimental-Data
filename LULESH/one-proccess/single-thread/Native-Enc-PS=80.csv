@@ -1,0 +1,72 @@
+Running problem size 80^3 per domain until completion
+Num processors: 1
+Num threads: 1
+Total number of elements: 512000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:
+   Problem size        =  80
+   MPI tasks           =  1
+   Iteration count     =  50
+   Final Origin Energy =  4.149655e+07
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 1.862645e-09
+        TotalAbsDiff = 3.771384e-09
+        MaxRelDiff   = 3.377194e-11
+
+Elapsed time         =         19 (s)
+Grind time (us/z/c)  = 0.74033418 (per dom)  ( 18.952555 overall)
+FOM                  =  1350.7414 (z/s)
+
+These are breakdowns
+rank is 0 host-name is poweredge-r650-6 send time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 recv time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 isend time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 irecv time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 wait time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 waitall time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 bcast time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoall time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoallv time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 reduce time is 0.000004s
+rank is 0 host-name is poweredge-r650-6 allreduce time is 0.000062s
+rank is 0 host-name is poweredge-r650-6 all comm time is 0.000066s
+MY_HOSTNAME is poweredge-r650-6
+
+rank is 0 host-name is poweredge-r650-6 send enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 recv dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 isend enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 wait dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 waitall dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 bcast enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 bcast dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoall enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoall dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allgather enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allgather dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoallv enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoallv dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 reduce enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 reduce dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allreduce enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allreduce dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 all enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 all dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 key distribution time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 Init crypt time is 0.000000s
+
+rank is 0 host-name is poweredge-r650-6 waitall avr time is -nans
+
+This is Breakdown for LULESH
+rank is 0 host-name is poweredge-r650-6  enc-allreduce time is 0.000062s
+rank is 0 host-name is poweredge-r650-6  enc-isend time is 0.000000s
+rank is 0 host-name is poweredge-r650-6  enc-irecv time is 0.000000s
+rank is 0 host-name is poweredge-r650-6  enc-wait time is 0.000000s
+rank is 0 host-name is poweredge-r650-6  enc-waitall time is 0.000000s
