@@ -1,0 +1,13 @@
+Run completed:
+   Problem size        =  50
+   MPI tasks           =  8
+   Iteration count     =  50
+   Final Origin Energy =  8.104796e+07
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 5.587935e-09
+        TotalAbsDiff = 1.021045e-08
+        MaxRelDiff   = 3.984785e-12
+
+Elapsed time         =        1.7 (s)
+Grind time (us/z/c)  =  0.2778043 (per dom)  ( 1.7362769 overall)
+FOM                  =  28797.251 (z/s)

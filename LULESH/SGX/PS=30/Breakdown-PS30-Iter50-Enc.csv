@@ -1,0 +1,353 @@
+rank is 1 host-name is poweredge-r650-6 send time is 0.000037s
+rank is 1 host-name is poweredge-r650-6 recv time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 isend time is 0.026639s
+rank is 1 host-name is poweredge-r650-6 irecv time is 0.001555s
+rank is 1 host-name is poweredge-r650-6 wait time is 0.139670s
+rank is 1 host-name is poweredge-r650-6 waitall time is 0.014359s
+rank is 1 host-name is poweredge-r650-6 bcast time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 alltoall time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 alltoallv time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 reduce time is 0.000103s
+rank is 1 host-name is poweredge-r650-6 allreduce time is 0.023167s
+rank is 1 host-name is poweredge-r650-6 all comm time is 0.205531s
+
+rank is 1 host-name is poweredge-r650-6 send enc time is 0.000058s
+rank is 1 host-name is poweredge-r650-6 recv dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 isend enc time is 0.000058s
+rank is 1 host-name is poweredge-r650-6 wait dec time is 0.006411s
+rank is 1 host-name is poweredge-r650-6 waitall dec time is 0.000689s
+rank is 1 host-name is poweredge-r650-6 bcast enc time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 bcast dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 alltoall enc time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 alltoall dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 allgather enc time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 allgather dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 alltoallv enc time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 alltoallv dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 reduce enc time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 reduce dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 allreduce enc time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 allreduce dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 all enc time is 0.069342s
+rank is 1 host-name is poweredge-r650-6 all dec time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 key distribution time is 0.000000s
+rank is 1 host-name is poweredge-r650-6 Init crypt time is 0.000000s
+
+rank is 1 host-name is poweredge-r650-6 waitall avr time is 0.000048s
+
+This is Breakdown for LULESH
+rank is 1 host-name is poweredge-r650-6  enc-allreduce time is 0.023167s
+rank is 1 host-name is poweredge-r650-6  enc-isend time is 0.095923s
+rank is 1 host-name is poweredge-r650-6  enc-irecv time is 0.001555s
+rank is 1 host-name is poweredge-r650-6  enc-wait time is 0.146081s
+rank is 1 host-name is poweredge-r650-6  enc-waitall time is 0.014359s
+
+
+These are breakdowns
+rank is 0 host-name is poweredge-r650-6 send time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 recv time is 0.000218s
+rank is 0 host-name is poweredge-r650-6 isend time is 0.024796s
+rank is 0 host-name is poweredge-r650-6 irecv time is 0.002831s
+rank is 0 host-name is poweredge-r650-6 wait time is 0.148527s
+rank is 0 host-name is poweredge-r650-6 waitall time is 0.019073s
+rank is 0 host-name is poweredge-r650-6 bcast time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoall time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoallv time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 reduce time is 0.000237s
+rank is 0 host-name is poweredge-r650-6 allreduce time is 0.028263s
+rank is 0 host-name is poweredge-r650-6 all comm time is 0.223945s
+
+rank is 0 host-name is poweredge-r650-6 send enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 recv dec time is 0.000010s
+rank is 0 host-name is poweredge-r650-6 isend enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 wait dec time is 0.007671s
+rank is 0 host-name is poweredge-r650-6 waitall dec time is 0.000676s
+rank is 0 host-name is poweredge-r650-6 bcast enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 bcast dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoall enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoall dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allgather enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allgather dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoallv enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 alltoallv dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 reduce enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 reduce dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allreduce enc time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 allreduce dec time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 all enc time is 0.057737s
+rank is 0 host-name is poweredge-r650-6 all dec time is 0.000010s
+rank is 0 host-name is poweredge-r650-6 key distribution time is 0.000000s
+rank is 0 host-name is poweredge-r650-6 Init crypt time is 0.000000s
+
+rank is 0 host-name is poweredge-r650-6 waitall avr time is 0.000064s
+
+This is Breakdown for LULESH
+rank is 0 host-name is poweredge-r650-6  enc-allreduce time is 0.028263s
+rank is 0 host-name is poweredge-r650-6  enc-isend time is 0.082533s
+rank is 0 host-name is poweredge-r650-6  enc-irecv time is 0.002831s
+rank is 0 host-name is poweredge-r650-6  enc-wait time is 0.156198s
+rank is 0 host-name is poweredge-r650-6  enc-waitall time is 0.019073s
+These are breakdowns
+rank is 5 host-name is poweredge-r650-8 send time is 0.000036s
+rank is 5 host-name is poweredge-r650-8 recv time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 isend time is 0.030506s
+rank is 5 host-name is poweredge-r650-8 irecv time is 0.001321s
+rank is 5 host-name is poweredge-r650-8 wait time is 0.122247s
+rank is 5 host-name is poweredge-r650-8 waitall time is 0.044977s
+rank is 5 host-name is poweredge-r650-8 bcast time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 alltoall time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 alltoallv time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 reduce time is 0.000103s
+rank is 5 host-name is poweredge-r650-8 allreduce time is 0.053026s
+rank is 5 host-name is poweredge-r650-8 all comm time is 0.252216s
+
+rank is 5 host-name is poweredge-r650-8 send enc time is 0.000059s
+rank is 5 host-name is poweredge-r650-8 recv dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 isend enc time is 0.000059s
+rank is 5 host-name is poweredge-r650-8 wait dec time is 0.005306s
+rank is 5 host-name is poweredge-r650-8 waitall dec time is 0.000692s
+rank is 5 host-name is poweredge-r650-8 bcast enc time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 bcast dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 alltoall enc time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 alltoall dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 allgather enc time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 allgather dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 alltoallv enc time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 alltoallv dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 reduce enc time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 reduce dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 allreduce enc time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 allreduce dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 all enc time is 0.074467s
+rank is 5 host-name is poweredge-r650-8 all dec time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 key distribution time is 0.000000s
+rank is 5 host-name is poweredge-r650-8 Init crypt time is 0.000000s
+
+rank is 5 host-name is poweredge-r650-8 waitall avr time is 0.000151s
+
+This is Breakdown for LULESH
+rank is 5 host-name is poweredge-r650-8  enc-allreduce time is 0.053026s
+rank is 5 host-name is poweredge-r650-8  enc-isend time is 0.104914s
+rank is 5 host-name is poweredge-r650-8  enc-irecv time is 0.001321s
+rank is 5 host-name is poweredge-r650-8  enc-wait time is 0.127554s
+rank is 5 host-name is poweredge-r650-8  enc-waitall time is 0.044977s
+These are breakdowns
+rank is 7 host-name is poweredge-r650-9 send time is 0.000036s
+rank is 7 host-name is poweredge-r650-9 recv time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 isend time is 0.035293s
+rank is 7 host-name is poweredge-r650-9 irecv time is 0.000695s
+rank is 7 host-name is poweredge-r650-9 wait time is 0.119014s
+rank is 7 host-name is poweredge-r650-9 waitall time is 0.063830s
+rank is 7 host-name is poweredge-r650-9 bcast time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 alltoall time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 alltoallv time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 reduce time is 0.000104s
+rank is 7 host-name is poweredge-r650-9 allreduce time is 0.071665s
+rank is 7 host-name is poweredge-r650-9 all comm time is 0.290637s
+
+rank is 7 host-name is poweredge-r650-9 send enc time is 0.000060s
+rank is 7 host-name is poweredge-r650-9 recv dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 isend enc time is 0.000060s
+rank is 7 host-name is poweredge-r650-9 wait dec time is 0.003980s
+rank is 7 host-name is poweredge-r650-9 waitall dec time is 0.000673s
+rank is 7 host-name is poweredge-r650-9 bcast enc time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 bcast dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 alltoall enc time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 alltoall dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 allgather enc time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 allgather dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 alltoallv enc time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 alltoallv dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 reduce enc time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 reduce dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 allreduce enc time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 allreduce dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 all enc time is 0.085202s
+rank is 7 host-name is poweredge-r650-9 all dec time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 key distribution time is 0.000000s
+rank is 7 host-name is poweredge-r650-9 Init crypt time is 0.000000s
+
+rank is 7 host-name is poweredge-r650-9 waitall avr time is 0.000214s
+
+This is Breakdown for LULESH
+rank is 7 host-name is poweredge-r650-9  enc-allreduce time is 0.071665s
+rank is 7 host-name is poweredge-r650-9  enc-isend time is 0.120434s
+rank is 7 host-name is poweredge-r650-9  enc-irecv time is 0.000695s
+rank is 7 host-name is poweredge-r650-9  enc-wait time is 0.122994s
+rank is 7 host-name is poweredge-r650-9  enc-waitall time is 0.063830s
+These are breakdowns
+rank is 4 host-name is poweredge-r650-8 send time is 0.000038s
+rank is 4 host-name is poweredge-r650-8 recv time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 isend time is 0.030566s
+rank is 4 host-name is poweredge-r650-8 irecv time is 0.001011s
+rank is 4 host-name is poweredge-r650-8 wait time is 0.141493s
+rank is 4 host-name is poweredge-r650-8 waitall time is 0.067052s
+rank is 4 host-name is poweredge-r650-8 bcast time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 alltoall time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 alltoallv time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 reduce time is 0.000102s
+rank is 4 host-name is poweredge-r650-8 allreduce time is 0.074487s
+rank is 4 host-name is poweredge-r650-8 all comm time is 0.314749s
+
+rank is 4 host-name is poweredge-r650-8 send enc time is 0.000057s
+rank is 4 host-name is poweredge-r650-8 recv dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 isend enc time is 0.000057s
+rank is 4 host-name is poweredge-r650-8 wait dec time is 0.006006s
+rank is 4 host-name is poweredge-r650-8 waitall dec time is 0.000708s
+rank is 4 host-name is poweredge-r650-8 bcast enc time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 bcast dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 alltoall enc time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 alltoall dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 allgather enc time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 allgather dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 alltoallv enc time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 alltoallv dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 reduce enc time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 reduce dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 allreduce enc time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 allreduce dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 all enc time is 0.067819s
+rank is 4 host-name is poweredge-r650-8 all dec time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 key distribution time is 0.000000s
+rank is 4 host-name is poweredge-r650-8 Init crypt time is 0.000000s
+
+rank is 4 host-name is poweredge-r650-8 waitall avr time is 0.000225s
+
+This is Breakdown for LULESH
+rank is 4 host-name is poweredge-r650-8  enc-allreduce time is 0.074487s
+rank is 4 host-name is poweredge-r650-8  enc-isend time is 0.098328s
+rank is 4 host-name is poweredge-r650-8  enc-irecv time is 0.001011s
+rank is 4 host-name is poweredge-r650-8  enc-wait time is 0.147499s
+rank is 4 host-name is poweredge-r650-8  enc-waitall time is 0.067052s
+These are breakdowns
+rank is 6 host-name is poweredge-r650-9 send time is 0.000035s
+rank is 6 host-name is poweredge-r650-9 recv time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 isend time is 0.031674s
+rank is 6 host-name is poweredge-r650-9 irecv time is 0.000849s
+rank is 6 host-name is poweredge-r650-9 wait time is 0.120724s
+rank is 6 host-name is poweredge-r650-9 waitall time is 0.056277s
+rank is 6 host-name is poweredge-r650-9 bcast time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 alltoall time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 alltoallv time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 reduce time is 0.000099s
+rank is 6 host-name is poweredge-r650-9 allreduce time is 0.063929s
+rank is 6 host-name is poweredge-r650-9 all comm time is 0.273587s
+
+rank is 6 host-name is poweredge-r650-9 send enc time is 0.000057s
+rank is 6 host-name is poweredge-r650-9 recv dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 isend enc time is 0.000057s
+rank is 6 host-name is poweredge-r650-9 wait dec time is 0.004690s
+rank is 6 host-name is poweredge-r650-9 waitall dec time is 0.000683s
+rank is 6 host-name is poweredge-r650-9 bcast enc time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 bcast dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 alltoall enc time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 alltoall dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 allgather enc time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 allgather dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 alltoallv enc time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 alltoallv dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 reduce enc time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 reduce dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 allreduce enc time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 allreduce dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 all enc time is 0.078386s
+rank is 6 host-name is poweredge-r650-9 all dec time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 key distribution time is 0.000000s
+rank is 6 host-name is poweredge-r650-9 Init crypt time is 0.000000s
+
+rank is 6 host-name is poweredge-r650-9 waitall avr time is 0.000189s
+
+This is Breakdown for LULESH
+rank is 6 host-name is poweredge-r650-9  enc-allreduce time is 0.063929s
+rank is 6 host-name is poweredge-r650-9  enc-isend time is 0.110003s
+rank is 6 host-name is poweredge-r650-9  enc-irecv time is 0.000849s
+rank is 6 host-name is poweredge-r650-9  enc-wait time is 0.125414s
+rank is 6 host-name is poweredge-r650-9  enc-waitall time is 0.056277s
+These are breakdowns
+rank is 3 host-name is poweredge-r650-7 send time is 0.000036s
+rank is 3 host-name is poweredge-r650-7 recv time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 isend time is 0.029753s
+rank is 3 host-name is poweredge-r650-7 irecv time is 0.001341s
+rank is 3 host-name is poweredge-r650-7 wait time is 0.130501s
+rank is 3 host-name is poweredge-r650-7 waitall time is 0.062843s
+rank is 3 host-name is poweredge-r650-7 bcast time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 alltoall time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 alltoallv time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 reduce time is 0.000103s
+rank is 3 host-name is poweredge-r650-7 allreduce time is 0.071693s
+rank is 3 host-name is poweredge-r650-7 all comm time is 0.296270s
+
+rank is 3 host-name is poweredge-r650-7 send enc time is 0.000060s
+rank is 3 host-name is poweredge-r650-7 recv dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 isend enc time is 0.000060s
+rank is 3 host-name is poweredge-r650-7 wait dec time is 0.005187s
+rank is 3 host-name is poweredge-r650-7 waitall dec time is 0.000691s
+rank is 3 host-name is poweredge-r650-7 bcast enc time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 bcast dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 alltoall enc time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 alltoall dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 allgather enc time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 allgather dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 alltoallv enc time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 alltoallv dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 reduce enc time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 reduce dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 allreduce enc time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 allreduce dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 all enc time is 0.079722s
+rank is 3 host-name is poweredge-r650-7 all dec time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 key distribution time is 0.000000s
+rank is 3 host-name is poweredge-r650-7 Init crypt time is 0.000000s
+
+rank is 3 host-name is poweredge-r650-7 waitall avr time is 0.000211s
+
+This is Breakdown for LULESH
+rank is 3 host-name is poweredge-r650-7  enc-allreduce time is 0.071693s
+rank is 3 host-name is poweredge-r650-7  enc-isend time is 0.109416s
+rank is 3 host-name is poweredge-r650-7  enc-irecv time is 0.001341s
+rank is 3 host-name is poweredge-r650-7  enc-wait time is 0.135688s
+rank is 3 host-name is poweredge-r650-7  enc-waitall time is 0.062843s
+These are breakdowns
+rank is 2 host-name is poweredge-r650-7 send time is 0.000040s
+rank is 2 host-name is poweredge-r650-7 recv time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 isend time is 0.027407s
+rank is 2 host-name is poweredge-r650-7 irecv time is 0.001522s
+rank is 2 host-name is poweredge-r650-7 wait time is 0.125603s
+rank is 2 host-name is poweredge-r650-7 waitall time is 0.034570s
+rank is 2 host-name is poweredge-r650-7 bcast time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 alltoall time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 alltoallv time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 reduce time is 0.000103s
+rank is 2 host-name is poweredge-r650-7 allreduce time is 0.043252s
+rank is 2 host-name is poweredge-r650-7 all comm time is 0.232497s
+
+rank is 2 host-name is poweredge-r650-7 send enc time is 0.000057s
+rank is 2 host-name is poweredge-r650-7 recv dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 isend enc time is 0.000057s
+rank is 2 host-name is poweredge-r650-7 wait dec time is 0.006420s
+rank is 2 host-name is poweredge-r650-7 waitall dec time is 0.000693s
+rank is 2 host-name is poweredge-r650-7 bcast enc time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 bcast dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 alltoall enc time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 alltoall dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 allgather enc time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 allgather dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 alltoallv enc time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 alltoallv dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 reduce enc time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 reduce dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 allreduce enc time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 allreduce dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 all enc time is 0.068935s
+rank is 2 host-name is poweredge-r650-7 all dec time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 key distribution time is 0.000000s
+rank is 2 host-name is poweredge-r650-7 Init crypt time is 0.000000s
+
+rank is 2 host-name is poweredge-r650-7 waitall avr time is 0.000116s
+
+This is Breakdown for LULESH
+rank is 2 host-name is poweredge-r650-7  enc-allreduce time is 0.043252s
+rank is 2 host-name is poweredge-r650-7  enc-isend time is 0.096285s
+rank is 2 host-name is poweredge-r650-7  enc-irecv time is 0.001522s
+rank is 2 host-name is poweredge-r650-7  enc-wait time is 0.132023s
+rank is 2 host-name is poweredge-r650-7  enc-waitall time is 0.034570s

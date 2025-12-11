@@ -1,0 +1,109 @@
+rank is 3 send time is 0.000000s
+rank is 3 recv time is 0.000000s
+rank is 3 isend time is 0.001625s
+rank is 3 irecv time is 0.000146s
+rank is 3 wait time is 0.006155s
+rank is 5 send time is 0.000000s
+rank is 3 wait all time is 0.001336s
+rank is 4 send time is 0.000000s
+rank is 4 recv time is 0.000000s
+rank is 4 isend time is 0.001831s
+rank is 4 irecv time is 0.000183s
+rank is 6 send time is 0.000000s
+rank is 3 bcast time is 0.000000s
+rank is 7 send time is 0.000000s
+rank is 7 recv time is 0.000000s
+rank is 7 isend time is 0.002030s
+rank is 7 irecv time is 0.000117s
+rank is 7 wait time is 0.004597s
+rank is 7 wait all time is 0.001125s
+rank is 7 bcast time is 0.000000s
+rank is 7 alltoall time is 0.000000s
+rank is 7 alltoallv time is 0.000000s
+rank is 7 reduce time is 0.000000s
+rank is 7 allreduce time is 0.007130s
+rank is 7 all comm time is 0.014999s
+
+rank is 1 send time is 0.000000s
+rank is 3 alltoall time is 0.000000s
+
+rank is 4 wait time is 0.005556s
+rank is 4 wait all time is 0.000521s
+rank is 4 bcast time is 0.000000s
+rank is 6 recv time is 0.000000s
+rank is 3 alltoallv time is 0.000000s
+
+rank is 4 alltoall time is 0.000000s
+rank is 6 isend time is 0.002210s
+rank is 6 irecv time is 0.000165s
+rank is 6 wait time is 0.004296s
+rank is 6 wait all time is 0.000664s
+rank is 6 bcast time is 0.000000s
+rank is 6 alltoall time is 0.000000s
+rank is 6 alltoallv time is 0.000000s
+rank is 6 reduce time is 0.000000s
+rank is 6 allreduce time is 0.008814s
+rank is 6 all comm time is 0.016148s
+
+rank is 3 reduce time is 0.000000s
+
+rank is 4 alltoallv time is 0.000000s
+rank is 3 allreduce time is 0.015547s
+
+rank is 4 reduce time is 0.000000s
+rank is 3 all comm time is 0.024809s
+
+
+rank is 4 allreduce time is 0.007019s
+rank is 4 all comm time is 0.015110s
+
+rank is 1 recv time is 0.000000s
+
+rank is 2 send time is 0.000000s
+rank is 2 recv time is 0.000000s
+rank is 2 isend time is 0.001797s
+rank is 2 irecv time is 0.000179s
+rank is 2 wait time is 0.006600s
+rank is 0 send time is 0.000000s
+rank is 0 recv time is 0.000000s
+rank is 0 isend time is 0.001431s
+rank is 0 irecv time is 0.000162s
+rank is 5 recv time is 0.000000s
+rank is 5 isend time is 0.001821s
+rank is 5 irecv time is 0.000136s
+rank is 5 wait time is 0.006153s
+rank is 5 wait all time is 0.000798s
+rank is 5 bcast time is 0.000000s
+rank is 5 alltoall time is 0.000000s
+rank is 5 alltoallv time is 0.000000s
+rank is 0 wait time is 0.007797s
+rank is 5 reduce time is 0.000000s
+rank is 2 wait all time is 0.000830s
+rank is 2 bcast time is 0.000000s
+rank is 2 alltoall time is 0.000000s
+rank is 5 allreduce time is 0.008566s
+rank is 5 all comm time is 0.017474s
+rank is 2 alltoallv time is 0.000000s
+rank is 0 wait all time is 0.000558s
+rank is 0 bcast time is 0.000000s
+
+rank is 2 reduce time is 0.000000s
+rank is 0 alltoall time is 0.000000s
+rank is 2 allreduce time is 0.007497s
+rank is 2 all comm time is 0.016901s
+rank is 0 alltoallv time is 0.000000s
+rank is 0 reduce time is 0.000000s
+rank is 0 allreduce time is 0.001585s
+
+rank is 0 all comm time is 0.011534s
+
+rank is 1 isend time is 0.001376s
+rank is 1 irecv time is 0.000148s
+rank is 1 wait time is 0.007359s
+rank is 1 wait all time is 0.001285s
+rank is 1 bcast time is 0.000000s
+rank is 1 alltoall time is 0.000000s
+rank is 1 alltoallv time is 0.000000s
+rank is 1 reduce time is 0.000000s
+rank is 1 allreduce time is 0.002761s
+rank is 1 all comm time is 0.012928s
