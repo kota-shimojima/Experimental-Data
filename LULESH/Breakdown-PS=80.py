@@ -149,6 +149,7 @@ def plot_combined(ax, parsed_list: List[ParsedData]) -> Tuple[Dict[str, float], 
         df = parsed.df.copy()
         if df.empty or "rank" not in df.columns:
             continue
+        
         df["rank_label"] = df["rank"] + 1  # 1-based rank for display
         bottoms = pd.Series([0.0] * len(df))
 
@@ -156,6 +157,9 @@ def plot_combined(ax, parsed_list: List[ParsedData]) -> Tuple[Dict[str, float], 
         for metric in metrics:
             base_metric = metric.replace("enc-", "")
             color = color_map[base_metric]
+            # Ensure the metric column exists, use 0 if not
+            if metric not in df.columns:
+                df[metric] = 0.0
             ax.bar(
                 df["rank_label"] + current_offset,
                 df[metric],

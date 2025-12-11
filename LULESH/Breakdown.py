@@ -24,10 +24,10 @@ import pandas as pd
 BASE_DIR = Path(__file__).resolve().parent
 
 FILES = {
-    "Native + Unenc": BASE_DIR / "Native" / "PS=60" / "Breakdown-PS60-Iter50-Unenc.csv",
-    "Native + Enc": BASE_DIR / "Native" / "PS=60" / "Breakdown-PS60-Iter50-Enc.csv",
-    "SGX + Unenc": BASE_DIR / "SGX" / "PS=60" / "Breakdown-PS60-Iter50-Unenc.csv",
-    "SGX + Enc": BASE_DIR / "SGX" / "PS=60" / "Breakdown-PS60-Iter50-Enc.csv",
+    "Native + Unenc": BASE_DIR / "Native" / "PS=80" / "Breakdown-PS60-Iter50-Unenc.csv",
+    "Native + Enc": BASE_DIR / "Native" / "PS=80" / "Breakdown-PS60-Iter50-Enc.csv",
+    "SGX + Unenc": BASE_DIR / "SGX" / "PS=80" / "Breakdown-PS60-Iter50-Unenc.csv",
+    "SGX + Enc": BASE_DIR / "SGX" / "PS=80" / "Breakdown-PS60-Iter50-Enc.csv",
 }
 
 UNENC_METRICS = ["isend", "irecv", "wait", "waitall", "allreduce"]
