@@ -1,0 +1,62 @@
+#----------------------------------------------------------------
+#    Intel(R) MPI Benchmarks 2021.10, MPI-1 part
+#----------------------------------------------------------------
+# Date                  : Mon Dec 15 07:16:08 2025
+# Machine               : x86_64
+# System                : Linux
+# Release               : 5.15.0-139-generic
+# Version               : #149~20.04.1-Ubuntu SMP Wed Apr 16 08:29:56 UTC 2025
+# MPI Version           : 2.1
+# MPI Thread Environment: 
+
+
+# Calling sequence was: 
+
+# ./Enc-IMB-MPI1 pingpong -off_cache 18.874368,64 -min_msg 1 -max_msg 1 -iter 1000 
+
+# Minimum message length in bytes:   0
+# Maximum message length in bytes:   4194304
+#
+# MPI_Datatype                   :   MPI_BYTE 
+# MPI_Datatype for reductions    :   MPI_FLOAT 
+# MPI_Op                         :   MPI_SUM  
+# 
+# 
+
+# List of Benchmarks to run:
+
+# PingPong
+Invalid benchmark name -min_msg
+Invalid benchmark name 1
+Invalid benchmark name -max_msg
+Invalid benchmark name 1
+
+#---------------------------------------------------
+# Benchmarking PingPong 
+# #processes = 2 
+#---------------------------------------------------
+       #bytes #repetitions      t[usec]   Mbytes/sec
+            0         1000        21.21         0.00
+            1         1000        21.40         0.05
+            2         1000        21.39         0.09
+            4         1000        21.35         0.19
+            8         1000        21.36         0.37
+           16         1000        21.76         0.74
+           32         1000        21.87         1.46
+           64         1000        21.95         2.92
+          128         1000        22.17         5.77
+          256         1000        23.65        10.83
+          512         1000        24.40        20.98
+         1024         1000        25.61        39.98
+         2048         1000        39.23        52.21
+         4096         1000        40.47       101.20
+         8192         1000        50.73       161.50
+        16384         1000        53.41       306.74
+        32768         1000        87.84       373.04
+        65536          640       173.74       377.20
+       131072          320       273.92       478.50
+       262144          160       460.71       569.00
+       524288           80       812.99       644.89
+      1048576           40      1514.85       692.20
+      2097152           20      2979.33       703.90
+      4194304           10      5954.40       704.40
