@@ -1,0 +1,121 @@
+benchmark,environment,encryption,processes,run,class,size,iterations,time_seconds,total_processes,active_processes,mops_total,mops_per_process,operation_type,verification,source_file
+BT,Native,ENC,1,1,C,162x 162x 162,200,637.70,1,1,4494.71,4494.71,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/bt-enc-1processes-1.csv
+BT,Native,ENC,4,1,C,162x 162x 162,200,165.36,4,4,17333.65,4333.41,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/bt-enc-4processes-1.csv
+BT,Native,ENC,16,1,C,162x 162x 162,200,74.01,16,16,38729.10,2420.57,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/bt-enc-16processes-1.csv
+BT,Native,UNENC,1,1,C,162x 162x 162,200,637.53,1,1,4495.89,4495.89,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/bt-unenc-1processes-1.csv
+BT,Native,UNENC,4,1,C,162x 162x 162,200,163.68,4,4,17511.15,4377.79,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/bt-unenc-4processes-1.csv
+BT,Native,UNENC,16,1,C,162x 162x 162,200,72.00,16,16,39810.89,2488.18,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/bt-unenc-16processes-1.csv
+BT,SGX,ENC,1,1,C,162x 162x 162,200,853.55,1,1,3358.07,3358.07,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/BT-ENC-1processes-1.csv
+BT,SGX,ENC,4,1,C,162x 162x 162,200,229.03,4,4,12514.79,3128.70,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/BT-ENC-4processes-1.csv
+BT,SGX,ENC,16,1,C,162x 162x 162,200,93.40,16,16,30687.30,1917.96,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/BT-ENC-16processes-1.csv
+BT,SGX,UNENC,1,1,C,162x 162x 162,200,856.40,1,1,3346.90,3346.90,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/BT-UNENC-1processes-1.csv
+BT,SGX,UNENC,4,1,C,162x 162x 162,200,220.22,4,4,13015.81,3253.95,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/BT-UNENC-4processes-1.csv
+BT,SGX,UNENC,16,1,C,162x 162x 162,200,90.74,16,16,31589.12,1974.32,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/BT-UNENC-16processes-1.csv
+CG,Native,ENC,1,1,C,150000,75,122.81,1,1,1167.25,1167.25,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-enc-1processes-1.csv
+CG,Native,ENC,2,1,C,150000,75,47.65,2,2,3008.37,1504.18,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-enc-2processes-1.csv
+CG,Native,ENC,4,1,C,150000,75,27.15,4,4,5279.09,1319.77,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-enc-4processes-1.csv
+CG,Native,ENC,8,1,C,150000,75,42.30,8,8,3388.63,423.58,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-enc-8processes-1.csv
+CG,Native,UNENC,1,1,C,150000,75,121.09,1,1,1183.81,1183.81,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-unenc-1processes-1.csv
+CG,Native,UNENC,2,1,C,150000,75,46.35,2,2,3092.68,1546.34,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-unenc-2processes-1.csv
+CG,Native,UNENC,4,1,C,150000,75,26.87,4,4,5335.74,1333.94,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-unenc-4processes-1.csv
+CG,Native,UNENC,8,1,C,150000,75,41.76,8,8,3432.55,429.07,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/cg-unenc-8processes-1.csv
+CG,SGX,ENC,1,1,C,150000,75,138.45,1,1,1035.34,1035.34,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-1processes-1.csv
+CG,SGX,ENC,1,2,C,150000,75,137.93,1,1,1039.30,1039.30,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-1processes-2.csv
+CG,SGX,ENC,1,3,C,150000,75,137.93,1,1,1039.31,1039.31,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-1processes-3.csv
+CG,SGX,ENC,1,4,C,150000,75,138.14,1,1,1037.69,1037.69,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-1processes-4.csv
+CG,SGX,ENC,1,5,C,150000,75,137.93,1,1,1039.31,1039.31,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-1processes-5.csv
+CG,SGX,ENC,2,1,C,150000,75,60.00,2,2,2389.32,1194.66,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-2processes-1.csv
+CG,SGX,ENC,2,2,C,150000,75,59.95,2,2,2391.15,1195.57,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-2processes-2.csv
+CG,SGX,ENC,2,3,C,150000,75,59.94,2,2,2391.56,1195.78,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-2processes-3.csv
+CG,SGX,ENC,2,4,C,150000,75,60.02,2,2,2388.36,1194.18,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-2processes-4.csv
+CG,SGX,ENC,2,5,C,150000,75,60.64,2,2,2363.88,1181.94,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-2processes-5.csv
+CG,SGX,ENC,4,1,C,150000,75,36.87,4,4,3887.71,971.93,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-4processes-1.csv
+CG,SGX,ENC,4,2,C,150000,75,36.90,4,4,3884.31,971.08,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-4processes-2.csv
+CG,SGX,ENC,4,3,C,150000,75,36.81,4,4,3894.77,973.69,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-4processes-3.csv
+CG,SGX,ENC,4,4,C,150000,75,36.91,4,4,3884.14,971.03,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-4processes-4.csv
+CG,SGX,ENC,4,5,C,150000,75,36.93,4,4,3881.14,970.28,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-4processes-5.csv
+CG,SGX,ENC,8,1,C,150000,75,45.87,8,8,3125.38,390.67,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-8processes-1.csv
+CG,SGX,ENC,8,2,C,150000,75,46.19,8,8,3103.77,387.97,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-8processes-2.csv
+CG,SGX,ENC,8,3,C,150000,75,46.39,8,8,3089.76,386.22,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-8processes-3.csv
+CG,SGX,ENC,8,4,C,150000,75,46.04,8,8,3113.41,389.18,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-8processes-4.csv
+CG,SGX,ENC,8,5,C,150000,75,46.29,8,8,3096.54,387.07,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-ENC-8processes-5.csv
+CG,SGX,UNENC,1,1,C,150000,75,137.31,1,1,1043.96,1043.96,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-1processes-1.csv
+CG,SGX,UNENC,1,2,C,150000,75,138.04,1,1,1038.48,1038.48,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-1processes-2.csv
+CG,SGX,UNENC,1,3,C,150000,75,138.43,1,1,1035.55,1035.55,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-1processes-3.csv
+CG,SGX,UNENC,1,4,C,150000,75,137.93,1,1,1039.27,1039.27,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-1processes-4.csv
+CG,SGX,UNENC,1,5,C,150000,75,136.93,1,1,1046.84,1046.84,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-1processes-5.csv
+CG,SGX,UNENC,2,1,C,150000,75,56.45,2,2,2539.45,1269.72,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-2processes-1.csv
+CG,SGX,UNENC,2,2,C,150000,75,56.57,2,2,2534.08,1267.04,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-2processes-2.csv
+CG,SGX,UNENC,2,3,C,150000,75,56.60,2,2,2532.70,1266.35,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-2processes-3.csv
+CG,SGX,UNENC,2,4,C,150000,75,56.31,2,2,2545.74,1272.87,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-2processes-4.csv
+CG,SGX,UNENC,2,5,C,150000,75,56.44,2,2,2539.99,1270.00,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-2processes-5.csv
+CG,SGX,UNENC,4,1,C,150000,75,33.54,4,4,4273.45,1068.36,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-4processes-1.csv
+CG,SGX,UNENC,4,2,C,150000,75,33.43,4,4,4288.50,1072.13,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-4processes-2.csv
+CG,SGX,UNENC,4,3,C,150000,75,33.55,4,4,4272.99,1068.25,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-4processes-3.csv
+CG,SGX,UNENC,4,4,C,150000,75,33.55,4,4,4272.86,1068.22,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-4processes-4.csv
+CG,SGX,UNENC,4,5,C,150000,75,33.93,4,4,4225.03,1056.26,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-4processes-5.csv
+CG,SGX,UNENC,8,1,C,150000,75,44.65,8,8,3210.62,401.33,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-8processes-1.csv
+CG,SGX,UNENC,8,2,C,150000,75,45.01,8,8,3184.74,398.09,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-8processes-2.csv
+CG,SGX,UNENC,8,3,C,150000,75,44.66,8,8,3209.81,401.23,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-8processes-3.csv
+CG,SGX,UNENC,8,4,C,150000,75,45.00,8,8,3185.76,398.22,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-8processes-4.csv
+CG,SGX,UNENC,8,5,C,150000,75,44.66,8,8,3209.86,401.23,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/CG-UNENC-8processes-5.csv
+EP,Native,ENC,1,1,C,8589934592,0,62.98,1,1,136.40,136.40,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-enc-1processes-1.csv
+EP,Native,ENC,2,1,C,8589934592,0,31.46,2,2,273.04,136.52,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-enc-2processes-1.csv
+EP,Native,ENC,4,1,,,,,,,,,,,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-enc-4processes-1.csv
+EP,Native,ENC,8,1,C,8589934592,0,8.91,8,8,964.55,120.57,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-enc-8processes-1.csv
+EP,Native,UNENC,1,1,C,8589934592,0,62.86,1,1,136.66,136.66,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-unenc-1processes-1.csv
+EP,Native,UNENC,2,1,C,8589934592,0,31.50,2,2,272.67,136.34,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-unenc-2processes-1.csv
+EP,Native,UNENC,4,1,C,8589934592,0,15.75,4,4,545.55,136.39,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-unenc-4processes-1.csv
+EP,Native,UNENC,8,1,C,8589934592,0,8.90,8,8,965.64,120.71,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/ep-unenc-8processes-1.csv
+EP,SGX,ENC,1,1,C,8589934592,0,158.38,1,1,54.24,54.24,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-1processes-1.csv
+EP,SGX,ENC,1,2,C,8589934592,0,158.36,1,1,54.24,54.24,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-1processes-2.csv
+EP,SGX,ENC,1,3,C,8589934592,0,158.36,1,1,54.24,54.24,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-1processes-3.csv
+EP,SGX,ENC,1,4,C,8589934592,0,158.35,1,1,54.25,54.25,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-1processes-4.csv
+EP,SGX,ENC,1,5,C,8589934592,0,158.40,1,1,54.23,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-1processes-5.csv
+EP,SGX,ENC,2,1,C,8589934592,0,79.20,2,2,108.46,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-2processes-1.csv
+EP,SGX,ENC,2,2,C,8589934592,0,79.20,2,2,108.46,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-2processes-2.csv
+EP,SGX,ENC,2,3,C,8589934592,0,79.22,2,2,108.43,54.21,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-2processes-3.csv
+EP,SGX,ENC,2,4,C,8589934592,0,79.20,2,2,108.46,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-2processes-4.csv
+EP,SGX,ENC,2,5,C,8589934592,0,79.19,2,2,108.47,54.24,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-2processes-5.csv
+EP,SGX,ENC,4,1,C,8589934592,0,39.62,4,4,216.82,54.20,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-4processes-1.csv
+EP,SGX,ENC,4,2,C,8589934592,0,39.61,4,4,216.87,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-4processes-2.csv
+EP,SGX,ENC,4,3,C,8589934592,0,39.60,4,4,216.91,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-4processes-3.csv
+EP,SGX,ENC,4,4,C,8589934592,0,39.60,4,4,216.92,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-4processes-4.csv
+EP,SGX,ENC,4,5,C,8589934592,0,39.60,4,4,216.92,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-4processes-5.csv
+EP,SGX,ENC,8,1,C,8589934592,0,22.40,8,8,383.47,47.93,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-8processes-1.csv
+EP,SGX,ENC,8,2,C,8589934592,0,22.40,8,8,383.41,47.93,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-8processes-2.csv
+EP,SGX,ENC,8,3,C,8589934592,0,22.41,8,8,383.33,47.92,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-8processes-3.csv
+EP,SGX,ENC,8,4,C,8589934592,0,22.40,8,8,383.44,47.93,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-8processes-4.csv
+EP,SGX,ENC,8,5,C,8589934592,0,22.41,8,8,383.34,47.92,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-ENC-8processes-5.csv
+EP,SGX,UNENC,1,1,C,8589934592,0,158.41,1,1,54.23,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-1processes-1.csv
+EP,SGX,UNENC,1,2,C,8589934592,0,158.42,1,1,54.22,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-1processes-2.csv
+EP,SGX,UNENC,1,3,C,8589934592,0,158.42,1,1,54.22,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-1processes-3.csv
+EP,SGX,UNENC,1,4,C,8589934592,0,158.41,1,1,54.23,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-1processes-4.csv
+EP,SGX,UNENC,1,5,C,8589934592,0,158.40,1,1,54.23,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-1processes-5.csv
+EP,SGX,UNENC,2,1,C,8589934592,0,79.21,2,2,108.45,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-2processes-1.csv
+EP,SGX,UNENC,2,2,C,8589934592,0,79.21,2,2,108.45,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-2processes-2.csv
+EP,SGX,UNENC,2,3,C,8589934592,0,79.21,2,2,108.45,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-2processes-3.csv
+EP,SGX,UNENC,2,4,C,8589934592,0,79.20,2,2,108.46,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-2processes-4.csv
+EP,SGX,UNENC,2,5,C,8589934592,0,79.22,2,2,108.44,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-2processes-5.csv
+EP,SGX,UNENC,4,1,C,8589934592,0,39.60,4,4,216.91,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-4processes-1.csv
+EP,SGX,UNENC,4,2,C,8589934592,0,39.61,4,4,216.87,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-4processes-2.csv
+EP,SGX,UNENC,4,3,C,8589934592,0,39.60,4,4,216.92,54.23,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-4processes-3.csv
+EP,SGX,UNENC,4,4,C,8589934592,0,39.61,4,4,216.87,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-4processes-4.csv
+EP,SGX,UNENC,4,5,C,8589934592,0,39.61,4,4,216.89,54.22,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-4processes-5.csv
+EP,SGX,UNENC,8,1,C,8589934592,0,22.41,8,8,383.38,47.92,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-8processes-1.csv
+EP,SGX,UNENC,8,2,C,8589934592,0,22.41,8,8,383.38,47.92,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-8processes-2.csv
+EP,SGX,UNENC,8,3,C,8589934592,0,22.40,8,8,383.42,47.93,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-8processes-3.csv
+EP,SGX,UNENC,8,4,C,8589934592,0,22.40,8,8,383.46,47.93,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-8processes-4.csv
+EP,SGX,UNENC,8,5,C,8589934592,0,22.40,8,8,383.48,47.94,Random numbers generated,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/EP-UNENC-8processes-5.csv
+SP,Native,ENC,1,1,C,162x 162x 162,400,424.33,1,1,3417.40,3417.40,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/sp-enc-1processes-1.csv
+SP,Native,ENC,4,1,C,162x 162x 162,400,108.41,4,4,13376.61,3344.15,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/sp-enc-4processes-1.csv
+SP,Native,ENC,16,1,C,162x 162x 162,400,98.41,16,16,14735.63,920.98,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/sp-enc-16processes-1.csv
+SP,Native,UNENC,1,1,C,162x 162x 162,400,430.24,1,1,3370.46,3370.46,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/sp-unenc-1processes-1.csv
+SP,Native,UNENC,4,1,C,162x 162x 162,400,108.64,4,4,13347.32,3336.83,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/sp-unenc-4processes-1.csv
+SP,Native,UNENC,16,1,C,162x 162x 162,400,95.92,16,16,15118.36,944.90,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/Native/results/sp-unenc-16processes-1.csv
+SP,SGX,ENC,1,1,C,162x 162x 162,400,522.28,1,1,2776.47,2776.47,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/SP-ENC-1processes-1.csv
+SP,SGX,ENC,4,1,C,162x 162x 162,400,133.71,4,4,10845.39,2711.35,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/SP-ENC-4processes-1.csv
+SP,SGX,ENC,16,1,C,162x 162x 162,400,101.36,16,16,14306.47,894.15,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/SP-ENC-16processes-1.csv
+SP,SGX,UNENC,1,1,C,162x 162x 162,400,519.23,1,1,2792.78,2792.78,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/SP-UNENC-1processes-1.csv
+SP,SGX,UNENC,4,1,C,162x 162x 162,400,133.68,4,4,10847.36,2711.84,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/SP-UNENC-4processes-1.csv
+SP,SGX,UNENC,16,1,C,162x 162x 162,400,102.91,16,16,14091.34,880.71,floating point,SUCCESSFUL,/mnt/ebi/shimojima/TPDP/NPB3.4.4/NPB3.4-MPI/SGX/results/SP-UNENC-16processes-1.csv

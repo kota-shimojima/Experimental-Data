@@ -1,0 +1,9 @@
+file,runtime,mode,processes,elements,MFlops,Solver Flop,Solve Time
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-enc-1processes-1.csv,Native,ENC,1,2000,5.8720E+03,3.0300E+09,0.5250E+01
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-enc-2processes-1.csv,Native,ENC,2,2000,5.9234E+03,1.5150E+09,0.2602E+01
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-enc-4processes-1.csv,Native,ENC,4,2000,6.0434E+03,7.5750E+08,0.1275E+01
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-enc-8processes-1.csv,Native,ENC,8,2000,5.2044E+03,3.7875E+08,0.7405E+00
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-native-1processes-1.csv,Native,UNENC,1,2000,5.8785E+03,3.0300E+09,0.5245E+01
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-native-2processes-1.csv,Native,UNENC,2,2000,5.9242E+03,1.5150E+09,0.2602E+01
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-native-4processes-1.csv,Native,UNENC,4,2000,6.1039E+03,7.5750E+08,0.1263E+01
+/mnt/ebi/shimojima/TPDP/Nekbone/test/example1/Native/results/nekbone-native-8processes-1.csv,Native,UNENC,8,2000,5.2895E+03,3.7875E+08,0.7286E+00
